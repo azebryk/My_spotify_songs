@@ -42,7 +42,7 @@ I modified this code and added methods to the class aproperate to my case.
 I looked at the general info and distributions of the data. Here are some highlights:
 ### Distribution of audio features
 <p align="center">
-  <img src="https://github.com/azebryk/Analysis_and_clustering_of_my_Spotify_songs/blob/master/images/histograms.png" width=500>
+  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/histograms.png" width=500>
 </p>
 Summary:
 - I'd rather like energetic electronic/rock/pop music, so the acousticness and speechiness of my songs is close to 0 and energy and danceability close to 1.
@@ -52,13 +52,13 @@ Summary:
 - Instrumentalness looks strange. For better understanding I plotted cumulative histogram.
 ### Distribution of Instrumentalness
 <p align="center">
-  <img src="https://github.com/azebryk/Analysis_and_clustering_of_my_Spotify_songs/blob/master/images/histograms.png" width=500>
+  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/histograms.png" width=500>
 </p>
 - As we can see, only 10 % of my songs have instrumentalness above 0.15, but 75% has it below 0.002883, so on the histogram we have high peak close to 0.
 
 ### Correlations
 <p align="center">
-  <img src="https://github.com/azebryk/Analysis_and_clustering_of_my_Spotify_songs/blob/master/images/correlations.jpg" width=500>
+  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/correlations.jpg" width=500>
 </p>
 
 - We can see positive correlation between loudness and energey, which makes sense and between danceability and valence (musical positiveness), so it's also correct so you always want to dance to positive sounds :)
@@ -74,18 +74,18 @@ There are several methods to determine the best number of clusters. In this proj
 
 Selecting number of clusters using elbow method:
 <p align="center">
-  <img src="https://github.com/azebryk/Analysis_and_clustering_of_my_Spotify_songs/blob/master/images/elbow_full2.png" width=500>
+  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/elbow_full2.png" width=500>
 </p>
 Number of cluster based on elbow method: 7.
 2. The silhouette method -  computes silhouette coefficients of each point that measure how much a point is similar to its own cluster compared to other clusters. by providing a succinct graphical representation of how well each object has been classified.
 <p align="center">
-  <img src="https://github.com/azebryk/Analysis_and_clustering_of_my_Spotify_songs/blob/master/images/elbow_full2.png" width=500>
+  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/elbow_full2.png" width=500>
 </p>
 
 ## Cluster visualisation using TSNE.
 Visualisation of 7 clusters using TSNE:
 <p align="center">
-  <img src="https://github.com/azebryk/Analysis_and_clustering_of_my_Spotify_songs/blob/master/images/t_sne.JPG" width=600>
+  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/t_sne.JPG" width=600>
 </p>
 
 ## Next steps:
