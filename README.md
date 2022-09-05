@@ -42,7 +42,7 @@ I modified this code and added methods to the class aproperate to my case.
 I looked at the general info and distributions of the data. Here are some highlights:
 ### Distribution of audio features
 <p align="center">
-  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/histograms.png" width=500>
+  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/histograms.png" width=700>
 </p>
 Summary:
 - I'd rather like energetic electronic/rock/pop music, so the acousticness and speechiness of my songs is close to 0 and energy and danceability close to 1.
@@ -52,13 +52,13 @@ Summary:
 - Instrumentalness looks strange. For better understanding I plotted cumulative histogram.
 ### Distribution of Instrumentalness
 <p align="center">
-  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/histograms.png" width=500>
+  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/instrumentalness.png" width=700>
 </p>
 - As we can see, only 10 % of my songs have instrumentalness above 0.15, but 75% has it below 0.002883, so on the histogram we have high peak close to 0.
 
 ### Correlations
 <p align="center">
-  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/correlations.jpg" width=500>
+  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/correlations.jpg" width=700>
 </p>
 
 - We can see positive correlation between loudness and energey, which makes sense and between danceability and valence (musical positiveness), so it's also correct so you always want to dance to positive sounds :)
@@ -76,23 +76,41 @@ Selecting number of clusters using elbow method:
 <p align="center">
   <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/elbow_full2.png" width=500>
 </p>
-Number of cluster based on elbow method: 7.
+Number of cluster based on elbow method: **6**.
+
 2. The silhouette method -  computes silhouette coefficients of each point that measure how much a point is similar to its own cluster compared to other clusters. by providing a succinct graphical representation of how well each object has been classified.
 <p align="center">
-  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/elbow_full2.png" width=500>
+  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/silhouette.png" width=500>
 </p>
 
 ## Cluster visualisation using TSNE.
-Visualisation of 7 clusters using TSNE:
+Visualisation of 6 clusters using TSNE:
 <p align="center">
-  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/t_sne.JPG" width=600>
+  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/tsne_6.png" width=600>
 </p>
 
-## Next steps:
+## Model Evaluation
+In unsupervised clustering we do not have target features and labels to easily score our model. Because so, we will perform EDA for both 3 and 6 clusters to determine which model is more accurate and what are the profiles of our clusters.
 
-Deeper analysis of 3 different clusters. 
+1. Distribution of the clusters.
+<p align="center">
+  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/cluster_dist.png" width=600>
+</p>
+We can see imbalance in different clusters.
 
-
+2. Detailed investigation of the clusters.
+- Energy
+<p align="center">
+  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/cluster_energy.png" width=600>
+</p>
+- Tempo
+<p align="center">
+  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/cluster_tempo.png" width=600>
+</p>
+- Acousticness
+<p align="center">
+  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/cluster_acoust.png" width=600>
+</p>
 
 ## Code and Resources Used 
 **Python Version:** 3.8.3  
