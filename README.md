@@ -103,10 +103,12 @@ We can see imbalance in different clusters.
 <p align="center">
   <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/cluster_energy.png" width=600>
 </p>
+
 - Tempo
 <p align="center">
   <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/cluster_tempo.png" width=600>
 </p>
+
 - Acousticness
 <p align="center">
   <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/cluster_acoust.png" width=600>

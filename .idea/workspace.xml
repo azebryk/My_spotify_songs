@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1faba81-b82e-40bc-a051-bbf959b9a7a6" name="Changes" comment="Readme update 2." />
+    <list default="true" id="b1faba81-b82e-40bc-a051-bbf959b9a7a6" name="Changes" comment="Plots update." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662404998679</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Plots update.">
+      <created>1662409595850</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662409595850</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +101,7 @@
     <MESSAGE value="t-SNE with 3 components and 3-d visualisations." />
     <MESSAGE value="Readme update." />
     <MESSAGE value="Readme update 2." />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme update 2." />
+    <MESSAGE value="Plots update." />
+    <option name="LAST_COMMIT_MESSAGE" value="Plots update." />
   </component>
 </project>
