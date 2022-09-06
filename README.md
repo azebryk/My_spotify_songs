@@ -122,14 +122,14 @@ We can see imbalance in different clusters.
 ## Clusters explenation
 Based on model evaluation and investigation I will focus on 2 clusters that stand out: cluster nr 5 and 4.
 
-### CLuster nr 5 - EDM songs
+### Cluster nr 5 - EDM songs
 I will start with cluster nr 5, since it was clearly separated from all other songs on the t-SNE visualisation. Based on model evaluation it has:
 - the highest energy
 - the lowest acousticness
 - the narrowest IQR in tempo box plot
 Most of the songs in that cluster has tempo close to 126 BPM, which is typical tempo for EDM songs. Looking at the artist and titles of the songs this is definietly true. Top artists in that cluster are Oliver Heldens, Tiesto and Dillon Francis.
 
-### CLuster nr 4
+### Cluster nr 4
 This cluster is the oposite of cluster nr 5. Based on model evaluation it has:
 - the lowest energy and loudness
 - the highest acousticness
