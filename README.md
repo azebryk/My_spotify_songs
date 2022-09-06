@@ -42,7 +42,7 @@ I modified this code and added methods to the class aproperate to my case.
 I looked at the general info and distributions of the data. Here are some highlights:
 ### Distribution of audio features
 <p align="center">
-  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/histograms.png" width=700>
+  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/histograms.png" width=900>
 </p>
 Summary:
 - I'd rather like energetic electronic/rock/pop music, so the acousticness and speechiness of my songs is close to 0 and energy and danceability close to 1.
@@ -113,6 +113,28 @@ We can see imbalance in different clusters.
 <p align="center">
   <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/cluster_acoust.png" width=600>
 </p>
+
+- Loudness
+<p align="center">
+  <img src="https://github.com/azebryk/My_spotify_songs/blob/master/images/cluster_loud.png" width=600>
+</p>
+
+## Clusters explenation
+Based on model evaluation and investigation I will focus on 2 clusters that stand out: cluster nr 5 and 4.
+
+### CLuster nr 5 - EDM songs
+I will start with cluster nr 5, since it was clearly separated from all other songs on the t-SNE visualisation. Based on model evaluation it has:
+- the highest energy
+- the lowest acousticness
+- the narrowest IQR in tempo box plot
+Most of the songs in that cluster has tempo close to 126 BPM, which is typical tempo for EDM songs. Looking at the artist and titles of the songs this is definietly true. Top artists in that cluster are Oliver Heldens, Tiesto and Dillon Francis.
+
+### CLuster nr 4
+This cluster is the oposite of cluster nr 5. Based on model evaluation it has:
+- the lowest energy and loudness
+- the highest acousticness
+It looks like this cluster is formed by slower songs that I have streamed. The songs that have landed here are from Muse, my fav rock band that apart of energetic rock songs has also beautiful ballads, but also from rapers Jay-Z and Post Malone.
+
 
 ## Code and Resources Used 
 **Python Version:** 3.8.3  
