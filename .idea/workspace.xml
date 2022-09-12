@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1faba81-b82e-40bc-a051-bbf959b9a7a6" name="Changes" comment="CLuster profiling.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="b1faba81-b82e-40bc-a051-bbf959b9a7a6" name="Changes" comment="Readme correction." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662453422229</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Readme correction.">
+      <created>1662489454785</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662489454785</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,8 +123,8 @@
     <MESSAGE value="Readme update." />
     <MESSAGE value="Readme update 2." />
     <MESSAGE value="Plots update." />
-    <MESSAGE value="Readme correction." />
     <MESSAGE value="CLuster profiling." />
-    <option name="LAST_COMMIT_MESSAGE" value="CLuster profiling." />
+    <MESSAGE value="Readme correction." />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme correction." />
   </component>
 </project>
